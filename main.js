@@ -4,6 +4,7 @@ function toggleSidebar(){
 document.getElementById('menu-icon').addEventListener('click', toggleSidebar);
 
 function showSection(sectionId) {
+  document.querySelector('body').classList.remove('open');
   document.querySelector(".main-section").classList.add("hidden") 
 
   const allSections = document.querySelectorAll('.section-content');
