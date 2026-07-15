@@ -1,0 +1,145 @@
+.main-section {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.main-section h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color:#666;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+.main-section button{
+    padding: 12px 28px;
+    border-radius: 7px;
+    background-color:#db971af4;
+    border: none;
+    font-size: 1rem;
+    transition: transform 0.3s ease, background-color 0.15s ease;
+}
+
+.main-section button:hover{
+    background-color: #b8760f;
+    transform: tarnslateY(-2px);
+}
+
+.hidden{
+    display: none;
+}
+
+#menu-icon {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    z-index: 100;
+    color: #db971af4;
+}
+
+.sidebar{
+    position: fixed;
+    background-color: black;
+    height:100vh;
+    width: 220px;
+    top:0;
+    right: -320px;
+    transition: right 0.3s ease;
+    display:flex;
+    gap: 2rem;
+    padding: 4rem 3rem;
+    border: none;
+    border-radius: 20px 0 0 20px;
+}
+
+.sidebar button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    text-align: left;
+    cursor: pointer;
+    opacity: 0.5;
+    letter-spacing: 0.02rem;
+}
+
+.sidebar button:hover {
+    opacity: 1;
+}
+
+.open .sidebar{
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content:center;
+    padding-left: 3rem;
+    right: 0;
+}
+
+.section-content{
+    display: none;
+    max-width: 600px;
+    margin: 4rem auto;
+    padding: 3rem;
+    background-color: #fafafa;
+    border-radius: 16px;
+    box-shadow:  0 4px 20px rgba(0, 0, 0, 0.06);
+}
+.section-content h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color:  #db971af4;
+}
+
+
+.section-content p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 1.2rem;
+}
+
+.section-content.active{
+    display: block;
+}
+
+/* stack */
+.stack-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.stack-list li {
+    display: flex;
+    gap: 0.6rem;
+    border: 1px solid #e0e0e0;
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+    font-size: 0.95rem;
+}
+
+/* contact me */
+.contact-list a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.contact-list a:hover {
+    color: #db971af4;
+}

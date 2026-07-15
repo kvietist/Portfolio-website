@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="main-section">
+        <h1>i'm xabibillo</h1>
+        <p class="subtitle">developer, building things from scratch</p>
+        <button onclick="toggleSidebar()">Explore</button>
+    </div>
+    <div id="menu-icon">☰</div>
+    <div class="sidebar">
+        <button onclick="goHome()">Home</button>
+        <button id="about-btn">About me</button>
+        <button id="stack-btn">Tech stack</button>
+        <button id="contact-btn">Contact me</button>
+    </div>
+
+    <section id="about" class="section-content">
+        <h2>About me</h2>
+        <p>My name is Qaxramonov Xabibillo</p>
+        <p>I'm 19 years old and interested in coding</p>
+        <p>My biggest goal is to become great Software Engineer</p>
+    </section>
+
+    <section id="stack" class="section-content">
+        <h2>Tech stack that i'm familiar with</h2>
+            <ul class="stack-list">
+        <li>
+            <img src="https://cdn.simpleicons.org/python" width="28" height="28" alt="Python">
+            <span>Python</span>
+        </li>
+        <li>
+            <img src="https://cdn.simpleicons.org/fastapi" width="28" height="28" alt="FastAPI">
+            <span>FastAPI</span>
+        </li>
+        <li>
+            <img src="https://cdn.simpleicons.org/postgresql" width="28" height="28" alt="PostgreSQL">
+            <span>PostgreSQL</span>
+        </li>
+        <li>
+            <img src="https://cdn.simpleicons.org/javascript" width="28" height="28" alt="JavaScript">
+            <span>JavaScript</span>
+        </li>
+        <li>
+            <img src="https://cdn.simpleicons.org/git" width="28" height="28" alt="Git">
+            <span>Git</span>
+        </li>
+        <li>
+            <img src="https://cdn.simpleicons.org/github" width="28" height="28" alt="GitHub">
+            <span>GitHub</span>
+        </li>
+        <li>
+            <img src="https://cdn.simpleicons.org/html5" width="28" height="28" alt="HTML5">
+            <span>HTML</span>
+        </li>
+        <li>
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/css3.svg" width="28" height="28" alt="CSS3">
+            <span>CSS</span>
+        </li>
+    </ul>
+    </section>
+
+    <section id="contact" class="section-content">
+        <h2>Contact me</h2>
+            <ul class="contact-list">
+        <li>
+            <a href="https://github.com/kvietist" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+            </a>
+        </li>
+        <li>
+            <a href="https://t.me/@xabibillo07" target="_blank">
+                <i class="fa-brands fa-telegram"></i>
+                <span>Telegram</span>
+            </a>
+        </li>
+        <li>
+            <a href="mailto:qaxramonovxabibillo@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </li>
+    </ul>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
