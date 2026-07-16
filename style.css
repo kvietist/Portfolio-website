@@ -1,3 +1,4 @@
+/* main section */
 .main-section {
     cursor: pointer;
     display: flex;
@@ -7,7 +8,7 @@
     min-height: 100vh;
 }
 .main-section h1{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3rem;
 }
 
@@ -35,7 +36,7 @@
 .hidden{
     display: none;
 }
-
+/* horizontal lines */
 #menu-icon {
     position: fixed;
     top: 2rem;
@@ -45,7 +46,7 @@
     z-index: 100;
     color: #db971af4;
 }
-
+/* sidebar */
 .sidebar{
     position: fixed;
     background-color: black;
@@ -84,7 +85,7 @@
     padding-left: 3rem;
     right: 0;
 }
-
+/* main content */
 .section-content{
     display: none;
     max-width: 600px;
