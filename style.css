@@ -186,5 +186,6 @@
 @media (max-width: 768px) {
     .subtitle {
         font-size: 0.10rem;
+        word-spacing: 8px;
     }
 }
