@@ -13,18 +13,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 800px;
-    height: 590px;
+    width:92%;
+    max-width: 600px;
+    height: 540px;
     background-color: #fdf9f9;
-    box-shadow:  0 4px 20px rgba(0, 0, 0, 0.06);
+    box-shadow:  0 10px 22px rgba(0, 0, 0, 0.06);
     border: 1px solid #e0e0e0;
     border-radius: 16px;
+    margin: 20px auto;
+    box-sizing: border-box;
 }
 
 .profile-pict {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+    max-width: 100%;
+    width: 290px;
+    height: auto;
+    border-radius: 30px;
+    border: 1px solid #b7b7b7;
+    padding: 5px;
+
 }
 
 .main-section h1{
