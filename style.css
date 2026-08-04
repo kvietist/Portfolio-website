@@ -182,3 +182,9 @@
 .contact-list a:hover {
     color: #db971af4;
 }
+
+@media (max-width: 768px) {
+    .subtitle {
+        font-size: 0.10rem;
+    }
+}
