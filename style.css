@@ -21,6 +21,7 @@
     border: 1px solid #e0e0e0;
     border-radius: 16px;
     margin: 20px auto;
+    margin-top: 100px;
     box-sizing: border-box;
 }
 
@@ -93,8 +94,9 @@
     height:100vh;
     width: 220px;
     top:0;
-    right:-320px;
-    transition: right 0.1s ease;
+    right:0;
+    transform: translateX(320px);
+    transition: transform 0.1s ease;
     display: flex;
     padding: 4rem 3rem;
     border: none;
@@ -117,6 +119,7 @@
 }
 
 .open .sidebar{
+    transform: translateX(0);
     flex-direction: column;
     gap: 1.3rem;
     justify-content:center;
