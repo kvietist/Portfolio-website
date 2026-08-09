@@ -54,14 +54,14 @@
 .main-section button{
     padding: 12px 28px;
     border-radius: 10px;
-    background-color: #ffa20d;
+    background-color: #f59f15;
     border: none;
     font-size: 1rem;
     transition: transform 0.3s ease, background-color 0.2s linear;
 }
 
 .main-section button:hover{
-    background-color: #d8961af4;
+    background-color: #ae7712fd;
     transform: tarnslateY(-2px);
 }
 
@@ -136,7 +136,7 @@
     background-color: #fdf9f9;
     border-radius: 16px;
     border: 1px solid #e0e0e0;
-    box-shadow:  0 4px 20px rgba(0, 0, 0, 0.06);
+    box-shadow:  0 4px 20px rgba(0, 0, 0, 0.30);
 }
 .section-content h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -148,8 +148,8 @@
 
 .section-content p {
     font-size: 1.05rem;
+    color: rgb(42, 41, 41);
     line-height: 1.8;
-    color: #666;
     margin-bottom: 1.2rem;
 }
 
